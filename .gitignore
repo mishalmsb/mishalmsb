@@ -1,10 +1,7 @@
 vendor/
-!themes/vastari-bootstrap/static/plugins/bootstrap-4/scss/vendor
-!themes/vastari-bootstrap/static/plugins/bootstrap-5/scss/vendor
 resources/
 /node_modules
 /public
-themes/vastari-bootstrap/static/images/temp-icons/
 
 # OS generated files #
 ######################

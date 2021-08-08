@@ -4,15 +4,10 @@
 {{ end }}
 
 
-{{ if site.Params.inConstruction }}
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  {{ $styleDev := resources.Get "scss/dev.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-  <link rel="stylesheet" href="{{ $styleDev.Permalink }}" />
-{{ else }}
-  {{ "<!-- Under construction Stylesheet -->" | safeHTML }}
-  {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" />
-{{ end }}
+{{ "<!-- Main Stylesheet -->" | safeHTML }}
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+
 
 
 {{/*  <link

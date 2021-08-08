@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head/head.html" . -}}
-    <body>
-        {{- partial "loader.html" . -}}
-        {{- partial "header.html" . -}}
-        <div class="wrapper">
-            {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer/footer.html" . -}}
-    </body>
+
+  {{ "<!-- Under construction Stylesheet -->" | safeHTML }}
+  {{ $styleDev := resources.Get "scss/dev.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+  <link rel="stylesheet" href="{{ $styleDev.Permalink }}" />
+
+	<body class="coming-soon">
+		<div class="wrapper">
+				{{- block "main" . }}{{- end }}
+		</div>
+
+		{{ with site.Params.devPlugins }}
+			{{ range .externalPlugins.js}}
+				{{ $script := .link }}
+				<script src="{{ .link | relURL }}"></script>
+			{{ end }}
+
+			{{ range .internalPlugins.js}}
+				{{ $js := resources.Get .link | babel | minify}}
+				<script src="{{ $js.Permalink }}"></script>
+			{{ end }}
+		{{ end }}
+  </body>
 </html>
