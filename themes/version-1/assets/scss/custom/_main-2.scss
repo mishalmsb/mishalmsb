@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: $body-font-family;
+  color: $body-color;
+  background: $body-bg;
+  font-size: $font-size-base;
+  font-weight: $body-font-weight;
+  line-height: $body-line-height;
+  .wrapper {
+    overflow: hidden;
+    height: 100%;
+    padding: 24px 24px 24px 0;
+  }
+}

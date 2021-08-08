@@ -1,0 +1,26 @@
+{{ if site.Params.inConstruction }}
+  {{ with site.Params.devPlugins }}
+    {{ range .externalPlugins.js}}
+      {{ $script := .link }}
+      <script src="{{ .link | relURL }}"></script>
+    {{ end }}
+
+    {{ range .internalPlugins.js}}
+      {{ $js := resources.Get .link | babel | minify}}
+      <script src="{{ $js.Permalink }}"></script>
+    {{ end }}
+  {{ end }}
+
+{{ else }}
+  {{ "<!-- JS Plugins -->" | safeHTML }}
+  {{ range site.Params.externalPlugins.js}}
+    {{ $script := .link }}
+    <script src="{{ .link | relURL }}"></script>
+  {{ end }}
+
+  {{ range site.Params.internalPlugins.js}}
+    {{ $js := resources.Get .link | babel | minify}}
+    <script src="{{ $js.Permalink }}"></script>
+  {{ end }}
+{{ end }}
+
