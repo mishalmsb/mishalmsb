@@ -1,11 +1,11 @@
-<div class="card hover-reveal-7">
+<div class="card hover-reveal-7 h-100 active">
   {{- partial "shared/cards/exhibitions/content/image.html" . -}}
-  <p class="fw-bold text-truncate card-title m-0 text-center">{{.title}}</p>
+  <p class="fw-bold card-title m-0 text-center bg-light h-100 d-flex align-items-center justify-content-center">{{.title}}</p>
   <div class="card-body text-center">
     <div class="card-content">
       <p class="fw-bold">{{.title}}</p>
       <div>
-        <i class="fas fa-money-check-alt"></i>
+        {{/*  <i class="fas fa-money-check-alt"></i>  */}}
         {{.hiringFee}}
       </div>
       <div>
