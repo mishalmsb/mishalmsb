@@ -217,8 +217,56 @@ page[size="A4"] {
 }
 
 @media print {
-  body, page[size="A4"] {
-    margin: 0;
-    box-shadow: 0;
+  // body, page[size="A4"] {
+  //   margin: 0;
+  //   box-shadow: 0;
+  // }
+  // .navbar,
+  // .cv-page-header {
+  //   visibility: hidden !important;
+  //   visibility: hidden;
+  //   height: 0 !important;
+  // }
+  // .cv {
+  //   margin: 0 !important;
+  //   .header {
+  //     background-color: #0C2D57 !important;
+  //   }
+  // }
+}
+
+body {
+  &.printing {
+    background-color: #fff !important;
+    .navbar,
+    .cv-page-header {
+      visibility: hidden !important;
+      display: none !important;;
+      height: 0 !important;
+    }
+    .cv {
+      margin: 0 !important;
+      .header {
+        background-color: #0C2D57 !important;
+      }
+    }
   }
 }
+// @media print {
+//   // body * {
+//   //     visibility: hidden; // part to hide at the time of print
+//   //     -webkit-print-color-adjust: exact !important; // not necessary use
+//   //        if colors not visible
+//   // }
+
+//   // .navbar,
+//   // .cv-page-header {
+//   //     visibility: hidden !important;
+//   // }
+
+//   // #page-wrapper * {
+//   //     visibility: visible; // Print only required part
+//   //     text-align: left;
+//   //     -webkit-print-color-adjust: exact !important;
+//   // }
+// }

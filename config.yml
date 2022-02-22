@@ -38,6 +38,3 @@ params:
     css: []
     js:
     - link: plugins/bootstrap-5.1.0/js/bootstrap.min.js
-    - link: plugins/html2canvas/html2canvas.min.js
-    - link: plugins/jspdf/jspdf.min.js
-    - link: plugins/html2pdf/html2pdf.min.js
