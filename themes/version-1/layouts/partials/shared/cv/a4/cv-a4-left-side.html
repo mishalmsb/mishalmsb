@@ -7,18 +7,49 @@
       <img class="img-fluid" src="{{.logo | absURL}}">
     </div>
     <div class="section main">
-      <p>{{.website}}</p>
-      {{ with .phone }}
-        {{ if eq $lang "en" }}
-          <p>{{.uk}}</p>
-        {{ else }}
-          <p>{{.pt}}</p>
-        {{ end }}
-      {{ end }}
-      <p>{{.email}}</p>
-      <p>
-        {{- partial "shared/cv/a4/value-by-lang.html" (dict "context" .nationality  "lang" $lang) -}}
-      </p>
+      <div class="content">
+        <div>
+          {{- partial "shared/icons/website.html" . -}}
+        </div>
+        <div>
+          <p>{{.website}}</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div>
+          {{- partial "shared/icons/phone.html" . -}}
+        </div>
+        <div>
+          <p>
+            {{ with .phone }}
+              {{ if eq $lang "en" }}
+                {{.uk}}
+              {{ else }}
+                {{.pt}}
+              {{ end }}
+            {{ end }}
+          </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div>
+          {{- partial "shared/icons/email.html" . -}}
+        </div>
+        <div>
+          <p>{{.email}}</p>
+        </div>
+      </div>
+
+      {{/*  <div class="content">
+        <div>
+          {{- partial "shared/icons/pt-flag.html" . -}}
+        </div>
+        <div>
+          <p>{{- partial "shared/cv/a4/value-by-lang.html" (dict "context" .nationality  "lang" $lang) -}}</p>
+        </div>
+      </div>  */}}
     </div>
     {{ with .skills }}
       <div class="section">

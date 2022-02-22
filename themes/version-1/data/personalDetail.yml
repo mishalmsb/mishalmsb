@@ -32,7 +32,6 @@ basicSkills:
   - MongoDB
   - Sockets.IO
   - Ruby on Rails
-
   - VueJs
   - Gulp
   - SQL
@@ -85,6 +84,9 @@ experience:
         name:
           en: Vastari
           pt: Vastari
+        location:
+          en: London
+          pt: Londres
         website: 'https://www.vastari.com/'
       when: Since 2016
       tasks:
@@ -107,6 +109,9 @@ experience:
         name:
           en: General Assembly
           pt: General Assembly
+        location:
+          en: London
+          pt: Londres
         website: ''
       when: 2016
       tasks:
@@ -127,6 +132,9 @@ experience:
         name:
           en: Sainsbury DC
           pt: Sainsbury DC
+        location:
+          en: London
+          pt: Londres
         website: ''
       when: 2016
       tasks:
@@ -141,6 +149,9 @@ experience:
         name:
           en: Heinz Factory
           pt: Heinz Factory
+        location:
+          en: Worcester
+          pt: Worcester
         website: ''
       when: 2015
       tasks:
@@ -155,6 +166,9 @@ experience:
         name:
           en: Representing Optimus and Portugal Telecom
           pt: Representando a Optimus e a Portugal Telecom
+        location:
+          en: Lisbon
+          pt: Lisboa
         website: ''
       when: '2008-2014'
       tasks:
