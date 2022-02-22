@@ -1,0 +1,166 @@
+name: Mishal Shashikant
+logo: 'images/logos/m.svg'
+website: mishalmsb.com
+profession: Web Developer
+phone:
+  pt: "+351 937172330"
+  uk: "+44 7477119079"
+nationality:
+  en: Portuguese
+  pt: "Português"
+email: mishalmsb@gmail.com
+skills:
+  title:
+    en: skills
+    pt: skills
+  options:
+  - JavaScript
+  - Angular
+  - HTML
+  - CSS/SCSS
+  - Bootstrap
+  - Lodash
+  - Hugo
+  - "& More"
+basicSkills:
+  title:
+    en: Basic Knowledge
+    pt: Conhecimentos Basicos
+  options:
+  - Node.JS
+  - React
+  - MongoDB
+  - Sockets.IO
+  - Ruby on Rails
+
+  - VueJs
+  - Gulp
+  - SQL
+  - GraphQL
+  - "& More"
+education:
+  title:
+    en: Education
+    pt: Educação
+  options:
+  - school: General Assembly
+    course:
+      en: Web Development Immersive
+      pt: Web Development Immersive
+    when: 2016
+  - school: Cinel
+    course:
+      en: Telecomms Technician
+      pt: Técnico de telecomunicações
+    when: 2009
+  - school: Escola Verney
+    course:
+      en: 12 Grade
+      pt: "12º Ano"
+    when: 1998
+languages:
+  title:
+    en: Languages
+    pt: Linguas
+  options:
+    en:
+      - Portuguese
+      - English
+      - Hindi
+      - Gujarati
+    pt:
+      - Português
+      - Inglês
+      - Hindi
+      - Gujarati
+experience:
+  title:
+    en: Experience
+    pt: Experiência
+  options:
+    - position:
+        en: Front-end Developer
+        pt: Front-end Developer
+      company:
+        name:
+          en: Vastari
+          pt: Vastari
+        website: 'https://www.vastari.com/'
+      when: Since 2016
+      tasks:
+        en:
+          - Working mostly with Angular 2+ on the companies web application.
+          - Help transform designer sketches into Angular components or other projects
+            (vastari.com, landing pages, annual reports, blog.vastari.com and others).
+          - Using technologies and frameworks like Angular CLI, NPM, Ghost, Hugo, Pug, Bootstrap,
+            Materialize, Nunjucks, Git, Gulp and many others.
+          - Yes, we are Agile.
+        pt:
+          - Trabalhando principalmente com Angular 2+ na aplicação web das empresas.
+          - Transformar esboços de designers em componentes Angular ou outros projetos (vastari.com, labs.vastari.com, whitworth.vastari.com, landing pages , annual reports, blog.vastari.com e outros.
+          - Usando tecnologias e frameworks como Angular CLI, NPM, Ghost, Pug, Bootstrap, Materialize, Nunjucks, Git, Gulp, Hugo and many others.
+          - Sim, somos 'Agile'.
+    - position:
+        en: Web Development Immersive
+        pt: Web Development Immersive
+      company:
+        name:
+          en: General Assembly
+          pt: General Assembly
+        website: ''
+      when: 2016
+      tasks:
+        en:
+          - An intensive 12-week course in full-stack web development, taught by industry professionals.
+          - Trained in a variety of skills including HTML, CSS, JavaScript, Angular.js,
+            Ruby on Rails, Consume and integrated third-party APIs.
+          - Working in an Agile methodology, Daily homework's, Presentation of projects, Pair programming, Daily stand-ups.
+        pt:
+          - Um curso intensivo de 12 semanas em desenvolvimento web full-stack, ministrado por profissionais do setor.
+          - Treinado em uma variedade de habilidades, incluindo HTML, CSS, JavaScript, Angular.js, Ruby on Rails, Consumo e APIs.
+          - Trabalhando em uma metodologia Agile, Trabalhos de casa diários, Apresentação de projetos,
+            Programação em pares, Stand-ups diários.
+    - position:
+        en: Warehouse Operative
+        pt: Operador de Armazém
+      company:
+        name:
+          en: Sainsbury DC
+          pt: Sainsbury DC
+        website: ''
+      when: 2016
+      tasks:
+        en:
+          - Order Picker.
+        pt:
+          - Selecionador de pedidos.
+    - position:
+        en: Production Operative
+        pt: Operador de Produção
+      company:
+        name:
+          en: Heinz Factory
+          pt: Heinz Factory
+        website: ''
+      when: 2015
+      tasks:
+        en:
+          - Production Line Operative and machine operative.
+        pt:
+          - Operador de linha de produção e operador de máquina.
+    - position:
+        en: Telecomms Technician
+        pt: Técnico de telecomunicações
+      company:
+        name:
+          en: Representing Optimus and Portugal Telecom
+          pt: Representando a Optimus e a Portugal Telecom
+        website: ''
+      when: '2008-2014'
+      tasks:
+        en:
+          - Field service technicians, installing and repairing telecom services from Optimus/Pt servers to clients home.
+          - Teach and support new technicians.
+          - Provide weekly report to management about companies technicians and discuss the improvements that can be made.
+        pt:
+          - Técnico de telecomunicações.
