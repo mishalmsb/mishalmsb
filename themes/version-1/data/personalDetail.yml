@@ -4,7 +4,7 @@ website: mishalmsb.com
 profession: Web Developer
 phone:
   pt: "+351 937172330"
-  uk: "+44 7477119079"
+  uk: "+351 937172330"
 nationality:
   en: Portuguese
   pt: "Português"
@@ -16,11 +16,13 @@ skills:
   options:
   - JavaScript
   - Angular
+  - React
   - HTML
   - CSS/SCSS
   - Bootstrap
   - Lodash
   - Hugo
+  - Chakra UI
   - "& More"
 basicSkills:
   title:
@@ -28,7 +30,7 @@ basicSkills:
     pt: Conhecimentos Basicos
   options:
   - Node.JS
-  - React
+  - Python
   - MongoDB
   - Sockets.IO
   - Ruby on Rails
@@ -36,6 +38,10 @@ basicSkills:
   - Gulp
   - SQL
   - GraphQL
+  - SAP Spartacus
+  - Gatsby
+  - Zustad
+  - React Query
   - "& More"
 education:
   title:
@@ -82,26 +88,59 @@ experience:
         pt: Front-end Developer
       company:
         name:
+          en: xgeeks
+          pt: xgeeks
+        location:
+          en: Lisbon
+          pt: Lisboa
+        website: 'https://www.xgeeks.io/'
+      when:
+          en: Since 2022
+          pt: Deste 2022
+      tech:
+        - Angular
+        - SAP Spartacus
+        - React
+        - Python
+        - Gatsby
+        - Zustad
+        - Chakra UI
+        - React Query
+      projects:
+        - Franke (B2B ecommerce)
+        - Geekathon
+        - SMS (skill managment system)
+    - position:
+        en: Front-end Developer
+        pt: Front-end Developer
+      company:
+        name:
           en: Vastari
           pt: Vastari
         location:
           en: London
           pt: Londres
         website: 'https://www.vastari.com/'
-      when: Since 2016
-      tasks:
-        en:
-          - Working mostly with Angular 2+ on the companies web application.
-          - Help transform designer sketches into Angular components or other projects
-            (vastari.com, landing pages, annual reports, blog.vastari.com and others).
-          - Using technologies and frameworks like Angular CLI, NPM, Ghost, Hugo, Pug, Bootstrap,
-            Materialize, Nunjucks, Git, Gulp and many others.
-          - Yes, we are Agile.
-        pt:
-          - Trabalhando principalmente com Angular 2+ na aplicação web das empresas.
-          - Transformar esboços de designers em componentes Angular ou outros projetos (vastari.com, labs.vastari.com, whitworth.vastari.com, landing pages, annual reports, blog.vastari.com e outros.
-          - Usando tecnologias e frameworks como Angular CLI, NPM, Ghost, Pug, Bootstrap, Materialize, Nunjucks, Git, Gulp, Hugo and many others.
-          - Sim, somos 'Agile'.
+      when:
+          en: 2016-2022
+          pt: 2016-2022
+      tech:
+        - Angular
+        - NPM
+        - Ghost
+        - Pug
+        - Bootstrap
+        - Materialize
+        - Nunjucks
+        - Git
+        - Gulp
+        - Hugo
+      projects:
+        - Web application
+        - vastari.com
+        - Landing pages
+        - Annual reports
+        - blog.vastari.com
     - position:
         en: Web Development Immersive
         pt: Web Development Immersive
@@ -112,19 +151,21 @@ experience:
         location:
           en: London
           pt: Londres
-        website: ''
-      when: 2016
+      when:
+          en: 2016
+          pt: 2016
+      tech:
+        - HTML
+        - CSS
+        - JavaScript
+        - Angular.js
+        - Ruby on Rails
+        - Agile
       tasks:
         en:
-          - An intensive 12-week course in full-stack web development, taught by industry professionals.
-          - Trained in a variety of skills including HTML, CSS, JavaScript, Angular.js,
-            Ruby on Rails, Consume and integrated third-party APIs.
-          - Working in an Agile methodology, Daily homework's, Presentation of projects, Pair programming, Daily stand-ups.
+          - An intensive 12-week course in full-stack web development (project-based), taught by industry professionals.
         pt:
           - Um curso intensivo de 12 semanas em desenvolvimento web full-stack, ministrado por profissionais do setor.
-          - Treinado em uma variedade de habilidades, incluindo HTML, CSS, JavaScript, Angular.js, Ruby on Rails, Consumo e APIs.
-          - Trabalhando em uma metodologia Agile, Trabalhos de casa diários, Apresentação de projetos,
-            Programação em pares, Stand-ups diários.
     - position:
         en: Warehouse Operative
         pt: Operador de Armazém
@@ -135,8 +176,9 @@ experience:
         location:
           en: London
           pt: Londres
-        website: ''
-      when: 2016
+      when:
+          en: 2016
+          pt: 2016
       tasks:
         en:
           - Order Picker.
@@ -152,15 +194,16 @@ experience:
         location:
           en: Worcester
           pt: Worcester
-        website: ''
-      when: 2015
+      when:
+          en: 2015
+          pt: 2015
       tasks:
         en:
           - Production Line Operative and machine operative.
         pt:
           - Operador de linha de produção e operador de máquina.
     - position:
-        en: Telecomms Technician
+        en: Telecom Technician
         pt: Técnico de telecomunicações
       company:
         name:
@@ -169,12 +212,17 @@ experience:
         location:
           en: Lisbon
           pt: Lisboa
-        website: ''
-      when: '2008-2014'
+      when:
+          en: 2008-2014
+          pt: 2008-2014
       tasks:
         en:
-          - Field service technicians, installing and repairing telecom services from Optimus/Pt servers to clients home.
-          - Teach and support new technicians.
-          - Provide weekly report to management about companies technicians and discuss the improvements that can be made.
+          - Telecom technician.
         pt:
           - Técnico de telecomunicações.
+        # en:
+        #   - Field service technicians, installing and repairing telecom services from Optimus/Pt servers to clients home.
+        #   - Teach and support new technicians.
+        #   - Provide weekly report to management about companies technicians and discuss the improvements that can be made.
+        # pt:
+        #   - Técnico de telecomunicações.

@@ -99,7 +99,7 @@ page[size="A4"] {
     padding: 5mm;
     position: relative;
     .section {
-      margin: 8mm 0;
+      margin: 6mm 0;
       text-align: right;
       color: #fff;
       &.main {
@@ -224,6 +224,24 @@ page[size="A4"] {
           margin-top: 2mm;
           .task {
             font-size: 10.5pt;
+          }
+        }
+        .techs {
+          margin-top: 2mm;
+          .tech {
+            font-size: 10.5pt;
+            display: inline-block;
+            border: 1px solid #1e406e;
+            padding: 1px 5px;
+            margin-right: 2pt;
+            margin-bottom: 5pt;
+          }
+        }
+        .projects {
+          margin-top: 2mm;
+          .project {
+            display: inline-block;
+            font-size: 11.5pt;
           }
         }
       }
